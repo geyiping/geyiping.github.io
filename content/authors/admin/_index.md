@@ -1,8 +1,8 @@
 ---
-title: 葛乙平a
-role: Professor of Artificial Intelligence
-bio: My research interests include distributed robotics, mobile computing and
-  programmable matter.
+title: Yiping Ge
+role: Professor of Psychology
+avatar_filename: 1000-_2_.jpg
+bio: My research interests include lgy
 interests:
   - Artificial Intelligence
   - Computational Linguistics
