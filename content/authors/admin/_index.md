@@ -1,12 +1,13 @@
 ---
 title: Yiping Ge
 role: Professor of Psychology
-avatar_filename: 1000-_2_.jpg
+avatar_filename:
+  - avatar.jpg
 bio: My research interests include lgy
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - 李国宇
+  - 李国宇的饭
+  - 干活
 social:
   - icon: envelope
     icon_pack: fas
@@ -51,6 +52,6 @@ highlight_name: true
 first_name: Alice
 email: ""
 ---
+Ge Yiping is a 天才
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-{style="text-align: justify;"}
+天才第一步，雀氏纸尿裤！
