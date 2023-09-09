@@ -1,34 +1,39 @@
-name: 'Close stale issues and PRs'
+name: Deploy GitHub Pages
+
 on:
-  schedule:
-    - cron: '30 1 * * *'
+  push:
+    branches:
+      - main  # Set a branch name to trigger deployment
+  pull_request:
 
 jobs:
-  stale:
-    runs-on: ubuntu-latest
+  deploy:
+    runs-on: ubuntu-20.04
+    permissions:
+      contents: write
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-      - uses: actions/stale@v3
+      - uses: actions/checkout@v3
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          stale-issue-message: |
-            This issue is stale because it has not had any recent activity. The resources of the project maintainers are limited, and so we are asking for your help.
+          submodules: true  # Fetch any Git submodules (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-            If this is a **bug** and you can still reproduce this error on the <code>main</code> branch, consider contributing a Pull Request with a fix.
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
 
-            If this is a **feature request**, and you feel that it is still relevant and valuable, consider contributing a Pull Request for review.
+      - name: Build
+        run: hugo --minify
 
-            This issue will automatically close soon if no further activity occurs. Thank you for your contributions.
-          stale-pr-message: |
-            This PR is stale because it has not had any recent activity. The resources of the project maintainers are limited, and so we are asking for your help.
-
-            If you feel that the PR is still relevant in the latest release, consider making the PR easier to review and finding developers to help review the PR.
-
-            Please be _mindful_ that although we encourage PRs, we cannot expand the scope of the project in every possible direction. There will be requests that don't make the roadmap.
-
-            This PR will automatically close soon if no further activity occurs. Thank you for your contributions.
-          days-before-stale: 30
-          days-before-close: 5
-          stale-issue-label: stale
-          stale-pr-label: stale
-          exempt-issue-labels: 'keep,enhancement,bug,documentation'
-          exempt-pr-labels: 'keep,enhancement,bug,documentation'
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        # If you're changing the branch from main, 
+        # also change the `main` in `refs/heads/main` 
+        # below accordingly.
+        if: ${{ github.ref == 'refs/heads/main' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
