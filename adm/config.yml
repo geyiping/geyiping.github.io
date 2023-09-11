@@ -2,7 +2,7 @@ backend:
   name: github
   repo: geyiping/geyiping.github.io   # Path to your Github/Gitlab repository
   branch: main    # Branch to update
-  base_url: http://localhost:2228 # Path to ext auth provider
+  base_url: http://121.40.239.169:2228 # Path to ext auth provider
 
 media_folder: 'assets/media'
 public_folder: '/media'
