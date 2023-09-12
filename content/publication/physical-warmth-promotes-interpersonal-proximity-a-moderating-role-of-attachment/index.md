@@ -6,6 +6,8 @@ publication_types:
 authors:
   - Yiping Ge
   - Li Zhang*
+publication: Paper presented at the 2020th Psychology for the 21st Century
+  Undergraduate Academic Forum, July 2020, Peking University, Beijing, China.
 abstract: >-
   There is emerging evidence showing a psychological link between physical
   warmth and the 
@@ -38,5 +40,5 @@ image:
   filename: featured.png
   focal_point: Smart
   preview_only: false
-date: 2023-09-12T06:22:49.762Z
+date: 2020-09-12T06:22:00.000Z
 ---
