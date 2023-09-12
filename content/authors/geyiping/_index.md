@@ -45,4 +45,4 @@ highlight_name: true
 first_name: Alice
 email: ""
 ---
-Greetings! I am currently pursuing a master's degree in cognitive neuroscience at the Institute of Psychology, Chinese Academy of Sciences. At present, my research interests lie particularly in social attention, perception, emotion, and affective learning. I'm always open to connecting with new people, so feel free to reach out~
+Greetings! I am currently pursuing a master's degree in Cognitive Neuroscience at the Institute of Psychology, Chinese Academy of Sciences. At present, my research interests lie particularly in social attention, perception, emotion, and affective neuroscience. I'm always willing to talk with new people, so feel free to reach out~
