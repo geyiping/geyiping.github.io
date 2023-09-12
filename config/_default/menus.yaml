@@ -16,8 +16,8 @@ main:
   - name: Publications
     url: '#pulications'
     weight: 40
-  - name: Accomplishments
-    url: '#accomplishments'
+  - name: Skills
+    url: '#academicskills'
     weight: 50
   - name: Contact
     url: '#contact'
