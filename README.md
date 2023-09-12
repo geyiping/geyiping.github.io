@@ -12,5 +12,8 @@ Click [geyiping.github.io](geyiping.github.io)
 ### Copyright
 The copyright of the **content** on this site belongs to me.
 
-The copyright of this **theme** belongs to the original author. Web modified from [Hugo Academic Theme](https://github.com/wowchemy/starter-hugo-academic) 
+The copyright of this **theme** belongs to the original author. Web modified from [Hugo Academic Theme](https://github.com/wowchemy/starter-hugo-academic)
+
+### License
+[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
