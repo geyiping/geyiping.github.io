@@ -8,7 +8,7 @@ authors:
   - Li Wang
   - Yi Jiang
 doi: 10.3758/s13423-023-02362-7
-url_pdf: /uploads/
+url_pdf: /uploads/huang2023life.pdf
 publication: Psychonomic Bulletin & Review
 abstract: Previous research has demonstrated that biological motion (BM) cues
   can induce a reflexive attentional orienting effect, a phenomenon referred to
