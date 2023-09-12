@@ -31,13 +31,8 @@ sections:
           location: Beijing, China
           date_start: '2021-09-01'
           date_end: ''
-          # description: |2-
-          #     Responsibilities include:
 
-          #     * Analysing
-          #     * Modelling
-          #     * Deploying
-        - title: Research Assistant
+        - title: Summer Internship
           company: Peking University
           company_url: 'https://www.pku.edu.cn/'
           company_logo: pku
@@ -63,41 +58,10 @@ sections:
     design:
       columns: '2'
   
-  # - block: collection
-  #   id: projects
-  #   content:
-  #     title: Projects
-  #     subtitle: ''
-  #     text: ''
-  #     # Choose how many pages you would like to display (0 = all pages)
-  #     count: 5
-  #     # Filter on criteria
-  #     filters:
-  #       folders:
-  #         - post
-  #       author: ""
-  #       category: ""
-  #       tag: ""
-  #       exclude_featured: false
-  #       exclude_future: false
-  #       exclude_past: false
-  #       publication_type: ""
-  #     # Choose how many pages you would like to offset by
-  #     offset: 0
-  #     # Page order: descending (desc) or ascending (asc) date.
-  #     order: desc
-  #   design:
-  #     # Choose a layout view
-  #     view: compact
-  #     columns: '2'
   - block: collection
     id: projects
     content:
       title: Projects
-      # text: |-
-      #   {{% callout note %}}
-      #   Quickly discover relevant content by [filtering publications](./publication/).
-      #   {{% /callout %}}
       filters:
         folders:
           - project
