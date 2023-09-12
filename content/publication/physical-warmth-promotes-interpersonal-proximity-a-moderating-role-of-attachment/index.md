@@ -30,6 +30,7 @@ abstract: >-
 
   interpersonal proximity is moderated by attachment.
 draft: false
+url_pdf: /uploads/ge2020psysical.pdf
 featured: false
 tags:
   - physical warmth
@@ -40,6 +41,5 @@ image:
   filename: featured.png
   focal_point: Smart
   preview_only: false
-date: 2023-09-12T06:22:49.762Z
-url_pdf: /uploads/ge2020psysical.pdf
+date: 2020-09-12T06:22:00.000Z
 ---
