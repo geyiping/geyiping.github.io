@@ -4,7 +4,7 @@ title: Does finger movement facilitate visuospatial working memory? Evidences
 publication_types:
   - "3"
 authors:
-  - Yiping Ge
+  - geyiping
   - Dan Zhu
   - Li Zhang*
 abstract: >-
@@ -28,3 +28,6 @@ image:
   preview_only: false
 date: 2023-09-12T06:17:12.371Z
 ---
+{{% callout note %}}
+Working Paper
+{{% /callout %}}

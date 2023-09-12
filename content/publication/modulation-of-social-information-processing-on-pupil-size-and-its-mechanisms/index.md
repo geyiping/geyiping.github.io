@@ -4,7 +4,7 @@ title: Modulation of social information processing on pupil size and its
 publication_types:
   - "2"
 authors:
-  - Yiping Ge
+  - geyiping
   - Shuo Li
   - Li Wang*
   - Yi Jiang*
@@ -50,4 +50,6 @@ image:
   focal_point: Smart
   preview_only: false
 date: 2023-09-12T05:48:48.599Z
+doi: 10.16476/j.pibb.2023.0214
+url_pdf: /uploads/ge2023modulation.pdf
 ---

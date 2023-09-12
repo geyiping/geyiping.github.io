@@ -4,7 +4,7 @@ title: Physical warmth promotes interpersonal proximity? A moderating role of
 publication_types:
   - "1"
 authors:
-  - Yiping Ge
+  - geyiping
   - Li Zhang*
 abstract: >-
   There is emerging evidence showing a psychological link between physical
@@ -39,4 +39,5 @@ image:
   focal_point: Smart
   preview_only: false
 date: 2023-09-12T06:22:49.762Z
+url_pdf: /uploads/ge2020psysical.pdf
 ---

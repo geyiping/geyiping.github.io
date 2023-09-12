@@ -4,7 +4,7 @@ title: "Effects of regional and individual epidemic exposure on interpersonal
 publication_types:
   - "2"
 authors:
-  - Yiping Ge
+  - geyiping
   - Min Ma
   - Li Zhang*
 publication: "Psychology: Techniques and Applications"
@@ -31,4 +31,6 @@ image:
   focal_point: Smart
   preview_only: false
 date: 2021-09-12T05:56:00.000Z
+doi: '10.16842/j.cnki.issn2095-5588.2021.07.005'
+url_pdf: /uploads/ge2021effects.pdf
 ---
