@@ -2,7 +2,7 @@
 title: Yiping Ge
 role: M.S. in Cognitive Neuroscience
 avatar_filename:
-  - avatar.jpg
+  - 头像1.jpg
 bio: ""
 interests:
   - Social Attention
