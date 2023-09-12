@@ -27,7 +27,7 @@ sections:
         - title: M.S. in Cognitive Neuroscience
           company: Institute of Psychology, CAS
           company_url: 'http://www.psych.ac.cn/'
-          company_logo: xls.png
+          company_logo: xls
           location: Beijing, China
           date_start: '2021-09-01'
           date_end: ''
@@ -40,7 +40,7 @@ sections:
         - title: B.S. in Applied Psychology
           company: Central University of Finance and Economics
           company_url: 'https://www.cufe.edu.cn/'
-          company_logo: cufe.jpg
+          company_logo: cufe
           location: Beijing, China
           date_start: '2017-09-01'
           date_end: '2021-06-30'
