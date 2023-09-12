@@ -12,6 +12,7 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: geyiping
   - block: experience
+    id: experience
     content:
       title: Experience
       # Date format for experience
@@ -23,27 +24,27 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+        - title: M.S. in Cognitive Neuroscience
+          company: Institute of Psychology, CAS
+          company_url: 'http://www.psych.ac.cn/'
+          company_logo: xls.png
+          location: Beijing, China
+          date_start: '2021-09-01'
           date_end: ''
-          description: |2-
-              Responsibilities include:
+          # description: |2-
+          #     Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          #     * Analysing
+          #     * Modelling
+          #     * Deploying
+        - title: B.S. in Applied Psychology
+          company: Central University of Finance and Economics
+          company_url: 'https://www.cufe.edu.cn/'
+          company_logo: cufe.jpg
+          location: Beijing, China
+          date_start: '2017-09-01'
+          date_end: '2021-06-30'
+          # description: Taught electronic engineering and researched semiconductor physics.
     design:
       columns: '2'
   
@@ -90,6 +91,7 @@ sections:
       columns: '2'
       view: compact
   - block: collection
+    id: pulications
     content:
       title: Recent Publications
       text: |-
@@ -104,6 +106,7 @@ sections:
       columns: '2'
       view: citation
   - block: accomplishments
+    id: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       title: 'Accomplish&shy;ments'
