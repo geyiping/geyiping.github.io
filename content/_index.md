@@ -120,11 +120,11 @@ sections:
     design:
       columns: '2'
       view: citation
-  - block: accomplishments
+  - block: skills
     id: academicskills
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Academic&shy;Skills'
+      title: 'Academic&nbsp;Skills'
       subtitle:
       # Date format: https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
@@ -135,24 +135,19 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: Languages
-          description: Chinese(native), English(Fluent, IELTS:7.5)
+          images: hi
+          subtitle: Chinese(native), English(Fluent, IELTS:7.5)
+        - title: Data collection
+          images: nice
+          subtitle: MATLAB, Psychophysics Toolbox, E-prime, BIOPAC MP160
+        - title: Data analysis
+          images: yeah
+          subtitle: MATLAB, SPSS, R
+        - title: Graphics
+          images: love
+          subtitle: MATLAB, Adobe lllustrator, Photoshop
 
-        - certificate_url: https://www.edx.org
-          date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
+        
     design:
       columns: '2'
   - block: contact
