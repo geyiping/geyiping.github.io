@@ -4,7 +4,7 @@ slides: gaze1
 url_pdf: ""
 summary: ""
 authors:
-  - Yiping Ge
+  - geyiping
   - Tian Yuan
   - Xinyi Huang
   - Li Wang*

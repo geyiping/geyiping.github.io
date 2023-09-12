@@ -7,7 +7,7 @@ summary: This study seeks to further scrutinize whether fear learning mediated
 draft: false
 featured: false
 authors:
-  - Yiping Ge
+  - geyiping
   - Li Wang*
   - Yi Jiang
 image:

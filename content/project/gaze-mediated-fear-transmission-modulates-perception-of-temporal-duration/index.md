@@ -8,7 +8,7 @@ summary: This study aims to explore whether fear learning mediated by eye gaze
 draft: false
 featured: false
 authors:
-  - Yiping Ge
+  - geyiping
   - Li Wang*
   - Yi Jiang
 tags:
