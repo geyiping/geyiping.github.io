@@ -50,7 +50,7 @@ image:
   focal_point: ""
   preview_only: false
   filename: featured.png
-date: 2015-09-01T00:00:00.000Z
+date: 2023-09-12T04:53:42.630Z
 url_slides: ""
 publishDate: 2017-01-01T00:00:00.000Z
 url_poster: ""
