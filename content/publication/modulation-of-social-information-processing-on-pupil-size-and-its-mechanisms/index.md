@@ -1,5 +1,6 @@
 ---
-title: Modulation of social information processing on pupil size and its mechanisms
+title: Modulation of social information processing on pupil size and its
+  mechanisms (in Chinese)
 publication_types:
   - "2"
 authors:
