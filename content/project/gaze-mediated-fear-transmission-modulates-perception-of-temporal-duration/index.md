@@ -7,6 +7,10 @@ summary: This study aims to explore whether fear learning mediated by eye gaze
   modulate this process.
 draft: false
 featured: false
+authors:
+  - Yiping Ge
+  - Li Wang*
+  - Yi Jiang
 image:
   filename: featured.jpg
   focal_point: Smart
