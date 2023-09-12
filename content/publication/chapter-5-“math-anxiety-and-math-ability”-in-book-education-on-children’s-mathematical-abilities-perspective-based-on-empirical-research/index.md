@@ -4,7 +4,7 @@ title: " Chapter 5 “Math Anxiety and Math Ability”, in book Education on
 publication_types:
   - "6"
 authors:
-  - Li Zhang
+  - Li Zhang (eds)
 publication: Beijing Normal University Press
 draft: false
 featured: false
