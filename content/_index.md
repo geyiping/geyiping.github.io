@@ -37,13 +37,13 @@ sections:
           #     * Analysing
           #     * Modelling
           #     * Deploying
-        - title: B.S. in Applied Psychology
-          company: Central University of Finance and Economics
-          company_url: 'https://www.cufe.edu.cn/'
-          company_logo: cufe
+        - title: Research Assistant
+          company: Peking University
+          company_url: 'https://www.pku.edu.cn/'
+          company_logo: pku
           location: Beijing, China
-          date_start: '2017-09-01'
-          date_end: '2021-06-30'
+          date_start: '2020-07-01'
+          date_end: '2020-08-30'
           # description: Taught electronic engineering and researched semiconductor physics.
         - title: Minor in Law School
           company: Central University of Finance and Economics
@@ -53,13 +53,13 @@ sections:
           date_start: '2018-09-01'
           date_end: '2021-06-30'
           description: TA in Constitution Class
-        - title: Research Assistant
-          company: Peking University
-          company_url: 'https://www.pku.edu.cn/'
-          company_logo: cpku
+        - title: B.S. in Applied Psychology
+          company: Central University of Finance and Economics
+          company_url: 'https://www.cufe.edu.cn/'
+          company_logo: cufe
           location: Beijing, China
-          date_start: '2020-07-01'
-          date_end: '2020-08-30'
+          date_start: '2017-09-01'
+          date_end: '2021-06-30'
     design:
       columns: '2'
   
