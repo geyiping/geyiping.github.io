@@ -11,6 +11,11 @@ authors:
   - Yiping Ge
   - Li Wang*
   - Yi Jiang
+tags:
+  - eye gaze
+  - time peception
+  - autism
+  - intention
 image:
   filename: featured.jpg
   focal_point: Smart
